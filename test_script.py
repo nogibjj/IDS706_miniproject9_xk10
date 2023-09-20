@@ -2,8 +2,8 @@
 Test goes here
 
 """
-import main
-from main import summary_desc
+import script
+from script import summary_desc
 import pandas as pd
 
 
@@ -23,7 +23,7 @@ def test_summary_desc():
 def test_histogram():
     df = pd.read_csv("bmi.csv")
 
-    main.histogram(df)
+    script.histogram(df)
 
     # assert os.path.isfile(histogram_image_path)
 
