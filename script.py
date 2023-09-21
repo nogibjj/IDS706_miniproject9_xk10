@@ -11,7 +11,6 @@ def summary_desc():
     df = pd.read_csv("bmi.csv")
     return pd_desc(df)
 
-
 def histogram(data):
     plt.figure(figsize=(8, 6))
     sns.histplot(data["Age"], kde=True, color="skyblue")

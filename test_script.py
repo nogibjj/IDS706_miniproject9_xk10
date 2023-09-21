@@ -22,11 +22,7 @@ def test_summary_desc():
 
 def test_histogram():
     df = pd.read_csv("bmi.csv")
-
     script.histogram(df)
-
-    # assert os.path.isfile(histogram_image_path)
-
 
 if __name__ == "__main__":
     test_summary_desc()
