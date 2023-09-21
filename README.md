@@ -1,11 +1,15 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-# Individual Project#1: Continuous Integration using GitHub Actions of Python
-## 📺YouTube link for demo video:
+[![Format](https://github.com/nogibjj/IDS706_individualproject1_xk10/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS706_individualproject1_xk10/actions/workflows/format.yml)
+[![Install](https://github.com/nogibjj/IDS706_individualproject1_xk10/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS706_individualproject1_xk10/actions/workflows/install.yml)
+[![Lint](https://github.com/nogibjj/IDS706_individualproject1_xk10/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/IDS706_individualproject1_xk10/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/IDS706_individualproject1_xk10/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS706_individualproject1_xk10/actions/workflows/test.yml)
 
-## Purpose:
+## Individual Project#1: Continuous Integration using GitHub Actions of Python
+### 📺YouTube link for demo video:
+
+### Purpose:
 This project aims to automates data analysis using 'Pandas' and 'matplotlib'. The dataset 'bmi.csv' is from Kaggle (https://www.kaggle.com/datasets/rukenmissonnier/age-weight-height-bmi-analysis), which comprises 741 individual records.)
 
-## This repo contains:
+### This repo contains:
 * `.devcontainer`: including a 'Dockerfile' speicifies how the container should be built
 
 * `Github Actions`: contain configuration files (performs all four Makefile commands with badges) for setting up automated build, test and deployment pipelines for the project
