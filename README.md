@@ -19,6 +19,7 @@ testing jupyter notebook by nbval plugin for pytest
 ![Screen Shot 2023-09-21 at 00 17 42](https://github.com/nogibjj/IDS706_individualproject1_xk10/assets/143849077/feb2a578-c4a0-456f-8fe6-df09d72f6a79)
 
 Run `make lint` which runs `ruff check`:
+
 ![Screen Shot 2023-09-21 at 00 19 40](https://github.com/nogibjj/IDS706_individualproject1_xk10/assets/143849077/dedf538b-963c-4f53-9cec-0c884e17b57c)
 
 Run 'make format' which formats code with python black:
