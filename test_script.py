@@ -24,6 +24,12 @@ def test_histogram():
     df = pd.read_csv("bmi.csv")
     script.histogram(df)
 
+
+def test_scatterplot():
+    df = pd.read_csv("bmi.csv")
+    script.scatterplot(df)
+
+
 if __name__ == "__main__":
     test_summary_desc()
     test_histogram()
